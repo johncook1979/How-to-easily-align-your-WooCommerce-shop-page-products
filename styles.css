@@ -1,0 +1,22 @@
+/*
+* Crop images
+*
+* This will crop the images. To display the images uncropped replace cover with contain.
+*/
+
+li.product img {
+  object-fit: cover;
+}
+
+
+
+/**
+*
+* Align product titles
+*
+* The height here can vary depending on the font size and family. Adjust the value as needed for your store
+*/
+
+li.product h2 {
+    min-height: 38px; 
+}
